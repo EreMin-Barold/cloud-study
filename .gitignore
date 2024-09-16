@@ -1,0 +1,60 @@
+# Gradle
+.gradle/
+build/
+
+# STS / Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+*.log
+*.tmp
+
+# STS beans
+.springbeans
+
+# IDE
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# gen env
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# env
+*.env
+
+# os
+*.lock
+*.pid
+*.gz
+*.zip
+
+# NPM (Node.js)
+node_modules/
+
+# etc
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite
+*.sublime-workspace
+*.sublime-project
+
