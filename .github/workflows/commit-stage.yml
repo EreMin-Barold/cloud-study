@@ -33,4 +33,4 @@ jobs:
     - name: Build, unit tests and intergration tests
       run: |
         chmod +x ./catalog-service/gradlew
-        ./catalog-service/gradlew build
+        ./gradlew build
