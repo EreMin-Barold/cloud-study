@@ -40,7 +40,7 @@ jobs:
         chmod +x ./catalog-service/gradlew
         cd catalog-service
         ./gradlew build
-    package:
+  package:
       name: Package and Publish
       if: ${{ github.ref == 'refs/heads/main' }}
       needs: [ build ]
