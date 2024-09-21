@@ -41,7 +41,7 @@ jobs:
         cd catalog-service
         ./gradlew build
     package:
-      name: Pankage and Publish
+      name: Package and Publish
       if: ${{ github.ref == 'refs/heads/main' }}
       needs: [ build ]
       runs-on: ubuntu-22.04
